@@ -4,15 +4,15 @@ const { BedrockPortal, Joinability } = require('bedrock-portal')
 
 const main = async () => {
   const portal = new BedrockPortal({
-    ip: 'bedrock.opblocks.com',
-    port: 19132,
+    ip: 'm-us-ca-la-01.wepwawet.net',
+    port: 25164,
     joinability: Joinability.FriendsOfFriends,
     world: {
-      hostName: 'BedrockPortal',
+      hostName: 'bedrockportal',
       name: 'BedrockPortal',
       version: '1.21.20',
       memberCount: 0,
-      maxMemberCount: 10,
+      maxMemberCount: 10000,
     },
   })
 
